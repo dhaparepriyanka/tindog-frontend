@@ -1,0 +1,194 @@
+/*---------------GENERAL ELEMENTS----------------*/
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.25em;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/*---------------NAV-BAR + TITLE SECTION----------------*/
+
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+
+#title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  #title-img{
+    transform: rotate(0);
+    position: static;
+  }
+  #title{
+    text-align: center;
+  }
+
+  .navbar-brand{
+    font-size: 2em;
+    font-weight: 400;
+  }
+  h1{
+    font-size: 2.5em;
+    font-weight: 600;
+  }
+  h2{
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+
+  h3{
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+}
+
+
+/*---------------FEATURES SECTION----------------*/
+
+.features-col{
+  margin: 4% 0 4% 0;
+  padding: 5%;
+}
+
+.feature-icon{
+  color: #ef8172;
+  padding-bottom: 15px;
+  }
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+#features{
+  padding: 4% 15%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+}
+
+
+/*---------------TESTIMONIALS + PRESS SECTION----------------*/
+.testimonial-img{
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#testimonials{
+  text-align: center;
+  background: #ef8172;
+  color: white;
+}
+
+#press{
+  background: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+
+
+/*---------------PRICING SECTION----------------*/
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+
+/*---------------Call to Action----------------*/
+#cta{
+  background: #ff4c68;
+  text-align: center;
+  padding: 6% 20% 7%;
+}
+
+#cta-h3{
+  color: white;
+  font-size: 3rem;
+}
+
+
+
+/*---------------FOOTER----------------*/
+
+#footer{
+  text-align: center;
+}
+
+.footer-icons{
+  margin: 4% 1% 1%;
+}
